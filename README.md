@@ -18,7 +18,7 @@ Este repositorio está dedicado a servir como un depósito de configuraciones y 
 
 - [Configuración de Bind9 con dhcp](bdns.md)
 
- Descripción: Esta sección ofrece una guía completa para configurar y administrar un servidor DNS utilizando BIND9. Se abordan aspectos como la creación de zonas, configuración de registros y seguridad.
+Descripción: Esta sección ofrece una guía completa para configurar y administrar un servidor DNS utilizando BIND9. Se abordan aspectos como la creación de zonas, configuración de registros y seguridad.
 
 ### Dhcp
 
@@ -26,9 +26,11 @@ Este repositorio está dedicado a servir como un depósito de configuraciones y 
 
 - [Configuración dhcp con dhcp-relay](dhcpre.md)
 
- Descripción: Esta sección proporciona instrucciones detalladas para configurar un servidor DHCP con relay y failover. Esto permite la asignación de direcciones IP en una red distribuida y proporciona redundancia en caso de fallos.
+Descripción: Esta sección proporciona instrucciones detalladas para configurar un servidor DHCP con relay y failover. Esto permite la asignación de direcciones IP en una red distribuida y proporciona redundancia en caso de fallos.
 
  ### Goaccess
 
  - [Configuración de goaccess con Apache](go.md)
+
+Descripción: Esta sección proporciona instrucciones detalladas para configurar y utilizar GoAccess, una herramienta de línea de comandos para el análisis de logs web en tiempo real. GoAccess ofrece visualizaciones interactivas y reportes detallados sobre el tráfico del servidor web.
 
