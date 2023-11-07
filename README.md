@@ -14,4 +14,7 @@ Este repositorio está dedicado a servir como un depósito de configuraciones y 
 
 ### Dhcp
 
+- [Configuración dhcp con Failover](dhcp.md)
+
+- [Configuración dhcp con dhcp-relay](dhcpre.md)
 
