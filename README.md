@@ -1,3 +1,6 @@
 # Servicios-en-red
 
-[Bind9-dns](bdns.md)
+## Índice
+
+Configuración de Bind9 con Maestro y Esclavo [Aquí](bind.md)
+Configuración de Bind9 con dhcp [Aquí](bdns.md)
