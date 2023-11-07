@@ -10,9 +10,13 @@ Este repositorio está dedicado a servir como un depósito de configuraciones y 
   
 * dhcp
 
+* Goaccess
+
+* Php, Mariadb, Apache2
+
 ## Contenido
 
-### Bind9
+### Configuración de DNS con BIND9
 
 - [Configuración de Bind9 con Maestro y Esclavo](bind.md)
 
@@ -20,7 +24,7 @@ Este repositorio está dedicado a servir como un depósito de configuraciones y 
 
 Descripción: Esta sección ofrece una guía completa para configurar y administrar un servidor DNS utilizando BIND9. Se abordan aspectos como la creación de zonas, configuración de registros y seguridad.
 
-### Dhcp
+### Configuración de DHCP con Relay y Failover
 
 - [Configuración dhcp con Failover](dhcp.md)
 
@@ -28,9 +32,14 @@ Descripción: Esta sección ofrece una guía completa para configurar y administ
 
 Descripción: Esta sección proporciona instrucciones detalladas para configurar un servidor DHCP con relay y failover. Esto permite la asignación de direcciones IP en una red distribuida y proporciona redundancia en caso de fallos.
 
- ### Goaccess
+ ### Configuración de GoAccess para Análisis de Logs
 
  - [Configuración de goaccess con Apache](go.md)
 
 Descripción: Esta sección proporciona instrucciones detalladas para configurar y utilizar GoAccess, una herramienta de línea de comandos para el análisis de logs web en tiempo real. GoAccess ofrece visualizaciones interactivas y reportes detallados sobre el tráfico del servidor web.
 
+### Configuración de PHP, MariaDB y Apache2 Server
+
+- [Configuracion de php, MariaDB y Apache2](pila.md)
+
+Descripción: Esta sección proporciona una guía detallada para configurar y establecer una pila de desarrollo web compuesta por PHP, MariaDB y Apache2. Esta combinación de tecnologías es esencial para el desarrollo y despliegue de aplicaciones web dinámicas y bases de datos relacionales.
