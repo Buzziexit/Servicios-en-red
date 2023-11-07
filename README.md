@@ -28,3 +28,7 @@ Este repositorio está dedicado a servir como un depósito de configuraciones y 
 
  Descripción: Esta sección proporciona instrucciones detalladas para configurar un servidor DHCP con relay y failover. Esto permite la asignación de direcciones IP en una red distribuida y proporciona redundancia en caso de fallos.
 
+ ### Goaccess
+
+ - [Configuración de goaccess con Apache](go.md)
+
