@@ -1,4 +1,8 @@
-# Servicios-en-red
+# Servicios en Red
+
+## Presentación
+
+Este repositorio está dedicado a servir como un depósito de configuraciones y ejemplos prácticos para diversos servicios esenciales en redes. Desde la configuración de DNS y DHCP hasta la administración de servidores web y VPNs, aquí encontrarás información detallada y ejemplos funcionales. Este recurso está diseñado para facilitar el acceso y la referencia a estas configuraciones en entornos de redes.
 
 ## Índice
 
@@ -7,3 +11,7 @@
 - [Configuración de Bind9 con Maestro y Esclavo](bind.md)
 
 - [Configuración de Bind9 con dhcp](bdns.md)
+
+### Dhcp
+
+
