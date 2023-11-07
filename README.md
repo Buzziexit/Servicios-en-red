@@ -2,6 +2,8 @@
 
 ## Índice
 
-Configuración de Bind9 con Maestro y Esclavo [Aquí](bind.md)
+### Bind9
 
-Configuración de Bind9 con dhcp [Aquí](bdns.md)
+- [Configuración de Bind9 con Maestro y Esclavo](bind.md)
+
+- [Configuración de Bind9 con dhcp](bdns.md)
