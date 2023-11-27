@@ -38,8 +38,4 @@ Descripción: Esta sección proporciona instrucciones detalladas para configurar
 
 Descripción: Esta sección proporciona instrucciones detalladas para configurar y utilizar GoAccess, una herramienta de línea de comandos para el análisis de logs web en tiempo real. GoAccess ofrece visualizaciones interactivas y reportes detallados sobre el tráfico del servidor web.
 
-### Configuración de PHP, MariaDB y Apache2 Server
 
-- [Configuracion de php, MariaDB y Apache2](pila.md)
-
-Descripción: Esta sección proporciona una guía detallada para configurar y establecer una pila de desarrollo web compuesta por PHP, MariaDB y Apache2. Esta combinación de tecnologías es esencial para el desarrollo y despliegue de aplicaciones web dinámicas y bases de datos relacionales.
