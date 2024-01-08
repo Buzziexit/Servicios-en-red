@@ -39,3 +39,8 @@ Descripción: Esta sección proporciona instrucciones detalladas para configurar
 Descripción: Esta sección proporciona instrucciones detalladas para configurar y utilizar GoAccess, una herramienta de línea de comandos para el análisis de logs web en tiempo real. GoAccess ofrece visualizaciones interactivas y reportes detallados sobre el tráfico del servidor web.
 
 
+### Docker
+
+ - [Configuración de goaccess con Apache](docker.md)
+
+Descripción: Docker es una plataforma de contenedorización que simplifica la creación, implementación y ejecución de aplicaciones al encapsularlas con todas sus dependencias en contenedores. Los contenedores son entornos ligeros y portátiles que aseguran la consistencia en diferentes entornos.
