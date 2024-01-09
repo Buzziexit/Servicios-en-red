@@ -42,3 +42,5 @@ Descripción: Esta sección proporciona instrucciones detalladas para configurar
 
  - [Configuración de nginx](nginx.md)
 
+Descripción: Nginx es un servidor web y software de proxy inverso de código abierto, conocido por su rendimiento y eficiencia. Se utiliza para gestionar solicitudes HTTP, equilibrar la carga en servidores y mejorar la seguridad web.
+
