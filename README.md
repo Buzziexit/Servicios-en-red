@@ -1,5 +1,8 @@
 # Configuraciones de Servicios de Red
 
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/7f1eecba-0cb5-4c5e-ae94-8154205d0310)
+
+
 ## Presentación
 
 Este repositorio está dedicado a servir como un depósito de configuraciones y ejemplos prácticos para diversos servicios esenciales en redes. Desde la configuración de DNS y DHCP hasta la administración de servidores web y VPNs, aquí encontrarás información detallada y ejemplos funcionales. Este recurso está diseñado para facilitar el acceso y la referencia a estas configuraciones en entornos de redes.
