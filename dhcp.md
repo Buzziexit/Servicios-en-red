@@ -22,9 +22,10 @@ En resumen, DHCP y DHCP Failover son herramientas esenciales en la gestión de d
 Asegúrate de utilizar la dirección IP 192.168.1.x/24 para la red interna y 172.26.x.x para el adaptador puente.
 
 Enp0s3 es mi red interna
+
 Enp0s8 es mi adaptador puente
 
-![image](https://github.com/Scosrom/dhcp-dhcpRelay/assets/114906778/854c6455-7985-4f9f-ae11-8092d1d6ad30)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/5b585643-8efd-48e5-b3f9-1164a5c1a2b0)
 
 
 ***Configurar dns:***
@@ -39,7 +40,7 @@ Puedes usar los servidores DNS de Google:
 8.8.4.4
 
 
-![image](https://github.com/Scosrom/dhcp-dhcpRelay/assets/114906778/c98c049e-54d2-40a6-b9c0-7a4e6d51e916)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/bb3de59e-8d40-4b19-a074-5abab8d9f33d)
 
 
 <code>sudo systemctl restart networking </code>
@@ -68,15 +69,15 @@ Peer address (IP del otro servidor)
 
 ### Configuración en el Servidor Primario:
 
-![image](https://github.com/Scosrom/dhcp-dhcpRelay/assets/114906778/37158cde-4c02-4b6f-ba67-8a9d77c4b170)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/19329cc2-2626-438c-96d4-5d39b3a2cc7e)
 
-![image](https://github.com/Scosrom/dhcp-dhcpRelay/assets/114906778/611af3e4-e304-4364-86ea-9e682b976675)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/65f97689-7fae-450f-9df8-3b025017b587)
 
 ### Configuración en el Servidor Secundario:
 
-![image](https://github.com/Scosrom/dhcp-dhcpRelay/assets/114906778/50c253cb-92b1-4765-96d8-9afd12f3f2b0)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/7eeb6899-2fcd-4eeb-94ec-798a9663b966)
 
-![image](https://github.com/Scosrom/dhcp-dhcpRelay/assets/114906778/aff22ea6-20d5-45cd-957f-3cdb88b5a0d9)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/24715dfb-bc73-4238-9fad-93dc57786f4f)
 
 
 Edita el archivo de configuración por defecto del servidor DHCP:
@@ -87,7 +88,7 @@ Edita el archivo de configuración por defecto del servidor DHCP:
 Indica la tarjeta de red asignada al DHCP.
 
 
-![image](https://github.com/Scosrom/dhcp-dhcpRelay/assets/114906778/2ffd2214-e495-42f9-9d67-741147983b92)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/e2725e79-3701-47da-9ef5-c914e67c6a97)
 
 Verifica con systemctl.
 
@@ -104,12 +105,12 @@ Verifica con systemctl.
 
 <code> sudo systemctl restart isc-dhcp-server </code>
 
-![image](https://github.com/Scosrom/dhcp-dhcpRelay/assets/114906778/4059dd94-52d9-48f3-b8eb-0a7ad0b420d3)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/8f0bbb0c-9a38-4a76-ae13-ea5bdfeb598f)
 
-![image](https://github.com/Scosrom/dhcp-dhcpRelay/assets/114906778/efabce9a-ab17-4503-bca4-4742d0f5ebbc)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/66e30fbc-30cb-4c15-8283-e043ebfc52dd)
 
 
-## Habilitar el Reenvío de Paquetes:
+## Habilitar el Reenvío de Paquetes (Servidor) :
 
 Abre el archivo de configuración de sysctl:
 
