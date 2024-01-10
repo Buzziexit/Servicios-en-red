@@ -148,7 +148,7 @@ Para hacer que estos cambios sean persistentes después del reinicio, puedes ins
 
 
 
-### Error de sintaxis:
+## Error de sintaxis:
 
 Si se presenta un error de sintaxis, puedes verificar la configuración con el siguiente comando.
 
