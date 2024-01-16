@@ -31,26 +31,7 @@ Tanto Nginx como Apache son servidores web populares, pero difieren en su arquit
 En resumen, Nginx destaca en eficiencia y rendimiento, especialmente para servir contenido estático y actuar como proxy inverso, mientras que Apache es conocido por su versatilidad y extensibilidad a través de módulos, siendo una opción sólida para una variedad de configuraciones y necesidades. La elección entre ambos dependerá de los requisitos específicos del proyecto y las preferencias del usuario.
 
 ## 3.- Instalación.
-
-```
-sudo apt update
-sudo apt install nginx
-```
-
-```
-systemctl status nginx
-```
-
-![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/693c7a1b-1999-4523-9d96-161f9655f464)
-
-Comprobamos que está instalado accediendo con la IP a la web.
-
-```
-http://your_server_ip
-```
-
-![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/3d5bc2a9-8d76-4b32-be59-e39889c6111c)
-
+[Instalación](nginx-ins.md)
 
 ## 4.- Casos prácticos.
 
