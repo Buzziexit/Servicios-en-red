@@ -51,3 +51,8 @@ Ahora, cuando intentes acceder a tu sitio, se te solicitará un nombre de usuari
 Recuerda que es importante proteger el archivo .htpasswd para evitar accesos no autorizados.
 
 Este proceso establece una autenticación básica en tu sitio utilizando un archivo .htpasswd. Asegúrate de adaptar los nombres de usuario, las contraseñas y las rutas según tus necesidades.
+
+Comprobación:
+
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/29787972-59c8-446e-8bfb-68b36dac8249)
+
