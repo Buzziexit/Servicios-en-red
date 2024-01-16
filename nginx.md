@@ -31,7 +31,8 @@ Tanto Nginx como Apache son servidores web populares, pero difieren en su arquit
 En resumen, Nginx destaca en eficiencia y rendimiento, especialmente para servir contenido estático y actuar como proxy inverso, mientras que Apache es conocido por su versatilidad y extensibilidad a través de módulos, siendo una opción sólida para una variedad de configuraciones y necesidades. La elección entre ambos dependerá de los requisitos específicos del proyecto y las preferencias del usuario.
 
 ## 3.- Instalación.
-[Instalación](nginx-ins.md)
+
+  0. [Instalación](nginx-ins.md)
 
 ## 4.- Casos prácticos.
 
