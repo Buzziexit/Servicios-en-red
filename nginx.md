@@ -35,8 +35,21 @@ En resumen, Nginx destaca en eficiencia y rendimiento, especialmente para servir
 
 ## 4.- Casos prácticos.
 
-### Configurar Bloques de un servidor
+1. Configuración Básica
+   
+   1. [Ejercicio 1](configba.md)
+      
+2. Mapeado de Url
+   
+   1. [Ejercicio 1](ejer1.md)
+   2. [Ejercicio 2](ejer2.md)
+   3. [Ejercicio 3](ejer3.md)
+   4. [Ejercicio 4](ejer4.md)
+      
+3. Autentificación, Autorización y Control de Acceso
 
+  5. [Ejercicio 5](ejer5.md)
+  6. [Ejercicio 6](ejer6.md)
+  7. [Ejercicio 7](ejer7.md)
 
-
-5.- Referencias.
+## - Referencias.
