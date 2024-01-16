@@ -67,3 +67,11 @@ Edita el archivo /etc/hosts para apuntar los dominios a tu dirección IP local. 
 127.0.0.1 www.iesrodrigocaro.org
 127.0.0.1 departamentos.iesrodrigocaro.org
 ```
+
+### Comprobacion:
+
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/bf2562b6-c35d-44a5-998f-e50620cdad29)
+
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/33dc37c1-f043-4803-b237-d58f5e3fa7be)
+
+
