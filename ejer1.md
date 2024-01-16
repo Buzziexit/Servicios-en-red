@@ -56,6 +56,10 @@ sudo systemctl restart nginx
 
 Después de realizar estos pasos, al acceder a http://www.iesrodrigocaro.org, se redirigirá automáticamente a http://www.iesrodrigocaro.org/principal, donde se mostrará el mensaje de bienvenida. Además, la restricción de listado de archivos y seguimiento de enlaces simbólicos se aplicará en el directorio /principal/.
 
+### Comprobación:
+
+
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/768fff93-cce2-418b-9d00-c56fc4950897)
 
 
 
