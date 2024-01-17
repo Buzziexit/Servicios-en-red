@@ -1,7 +1,8 @@
-Comparativa con Apache.
+## Comparativa con Apache.
+
 Tanto Nginx como Apache son servidores web populares, pero difieren en su arquitectura y enfoques.
 
-Nginx:
+### Nginx:
 
 Diseño de concurrencia: Está diseñado para ser ligero y eficiente, utiliza un enfoque de concurrencia no bloqueante que le permite manejar un gran número de conexiones simultáneas de manera eficiente.
 
@@ -9,7 +10,7 @@ Rendimiento: Es conocido por su rendimiento y es particularmente eficaz en situa
 
 Proxy inverso: Destaca en el manejo de tareas de proxy inverso, balanceo de carga y servir como servidor de archivos estáticos.
 
-Apache:
+### Apache:
 
 Diseño de concurrencia: Utiliza un modelo de concurrencia tradicional, asignando un hilo o proceso por cada conexión, lo que puede resultar menos eficiente en comparación con Nginx en ciertos escenarios.
 
