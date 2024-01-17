@@ -75,7 +75,7 @@ upstream backend {
 
 server {
     listen      80;
-    server_name jcachaco.ddns.net; # Dominio registrado con la IP del servidor de balanceo de carga
+    server_name manolix.ddns.net; # Dominio registrado con la IP del servidor de balanceo de carga
 
     location / {
         proxy_redirect      off;
@@ -116,7 +116,7 @@ Paso 3: Obtener un certificado SSL
 Ejecute Certbot con el complemento --nginx y especifique los nombres de dominio para los cuales desea que el certificado sea válido
 
 ```
-sudo certbot --nginx -d jcachaco.ddns.net
+sudo certbot --nginx -d manolix.ddns.net
 ```
 
 Si es la primera vez que ejecuta Certbot, se le pedirá que ingrese una dirección de correo electrónico y acepte las condiciones de servicio. Posteriormente, Certbot se comunicará con el servidor de Let’s Encrypt y realizará una verificación para confirmar que usted controla el dominio solicitado.
@@ -126,3 +126,10 @@ Una vez que se haya verificado el certificado, Certbot configurará automáticam
 Recuerde que este proceso puede variar dependiendo de la configuración específica de su servidor y sistema operativo. Asegúrese de seguir las recomendaciones y prácticas de seguridad pertinentes para su entorno.
 
 5.- Comprobación
+
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/a72cf8f0-471e-4239-a58a-57913b0bd926)
+
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/4a579c3d-b103-452d-b5f1-a6b0cbc92a92)
+
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/ca0023d7-9bfc-4ab7-8e92-47f8dce9c692)
+
