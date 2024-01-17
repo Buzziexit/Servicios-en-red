@@ -43,15 +43,15 @@ En resumen, Nginx destaca en eficiencia y rendimiento, especialmente para servir
 
 **2. Mapeado de Url**
    
-  1. [Ejercicio 1](ejer1.md)
-  2. [Ejercicio 2](ejer2.md)
-  3. [Ejercicio 3](ejer3.md)
-  4. [Ejercicio 4](ejer4.md)
+  1. [Ejercicio 1](ejer/ejer1.md)
+  2. [Ejercicio 2](ejer/ejer2.md)
+  3. [Ejercicio 3](ejer/ejer3.md)
+  4. [Ejercicio 4](ejer/ejer4.md)
       
 **3. Autentificación, Autorización y Control de Acceso**
 
-  5. [Ejercicio 5](ejer5.md)
-  6. [Ejercicio 6](ejer6.md)
-  7. [Ejercicio 7](ejer7.md)
+  5. [Ejercicio 5](ejer/ejer5.md)
+  6. [Ejercicio 6](ejer/ejer6.md)
+  7. [Ejercicio 7](ejer/ejer7.md)
 
 ## - Referencias.
