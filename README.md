@@ -9,13 +9,15 @@ Este repositorio está dedicado a servir como un depósito de configuraciones y 
 
 ## Índice
 
-* Bind9
+* 1- Bind9
   
-* dhcp
+* 2- Dhcp
 
-* Goaccess
+* 3- Goaccess
 
-* Php, Mariadb, Apache2
+* 4- Nginx
+
+* 5- FTP
 
 ## Contenido
 
