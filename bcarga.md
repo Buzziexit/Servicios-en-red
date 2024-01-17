@@ -25,7 +25,7 @@ nano /var/www/html/index.html
 Dentro del editor, agrega las siguientes líneas:
 
 ```
-html>
+<html>
 <title>nginx</title>
 <body>
 Hola soy manoli 1
@@ -45,7 +45,7 @@ nano /var/www/html/index.html
 Dentro del editor, agrega las siguientes líneas:
 
 ```
-html>
+<html>
 <title>nginx</title>
 <body>
 Hola soy manoli 2
