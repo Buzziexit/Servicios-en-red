@@ -3,9 +3,8 @@
 ![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/5487e3e6-1c50-409d-933c-80ce6ad9f9c1)
 
 
-Creado en AWS con Debian 12.
-
-Archivo de configuración: /etc/vsftpd/vsftpd.conf
++ Creado en AWS con Debian 12.
++ Archivo de configuración: /etc/vsftpd/vsftpd.conf
 
 
 
