@@ -28,7 +28,7 @@ Dentro del editor, agrega las siguientes líneas:
 html>
 <title>nginx</title>
 <body>
-Soy el servidor nginx1 de jose
+Hola soy manoli 1
 </body>
 </html>
 ```
@@ -48,7 +48,7 @@ Dentro del editor, agrega las siguientes líneas:
 html>
 <title>nginx</title>
 <body>
-Soy el servidor nginx2 de jose
+Hola soy manoli 2
 </body>
 </html>
 ```
