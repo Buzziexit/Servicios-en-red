@@ -8,6 +8,23 @@ Es un servidor web de código abierto y software de proxy inverso. Su principal 
 
 Además de sus capacidades como servidor web, Nginx también se utiliza comúnmente como un proxy inverso para distribuir el tráfico a diferentes servidores, mejorar la seguridad, y proporcionar funciones avanzadas como la compresión de contenido y la caché. Su diseño modular y su capacidad para manejar múltiples conexiones simultáneas lo hacen una opción popular para aplicaciones web de alto rendimiento y sitios con tráfico intenso.
 
+## Contenido
+
+1- [Comparativa con Apache](comparativa.md)
+2- [Instalación](nginx-ins.md)
+      2.1- [Configuración Básica](configba.md)
+      2.2- [Balanceo de Carga](bcarga.md)
+3- Casos practicos
+3.1 Mapeado de Url
+      3.1.1- [Ejercicio 1](ejer/ejer1.md)
+      3.1.2- [Ejercicio 2](ejer/ejer2.md)
+      3.1.3- [Ejercicio 3](ejer/ejer3.md)
+      3.1.4- [Ejercicio 4](ejer/ejer4.md)
+3.2 Autentificación, Autorización y Control de Acceso
+      3.2.1- [Ejercicio 5](ejer/ejer5.md)
+      3.2.2- [Ejercicio 6](ejer/ejer6.md)
+      3.2.3- [Ejercicio 7](ejer/ejer7.md)
+
 ## Comparativa con Apache.
 
 Tanto Nginx como Apache son servidores web populares, pero difieren en su arquitectura y enfoques.
@@ -30,28 +47,5 @@ Tanto Nginx como Apache son servidores web populares, pero difieren en su arquit
 
 En resumen, Nginx destaca en eficiencia y rendimiento, especialmente para servir contenido estático y actuar como proxy inverso, mientras que Apache es conocido por su versatilidad y extensibilidad a través de módulos, siendo una opción sólida para una variedad de configuraciones y necesidades. La elección entre ambos dependerá de los requisitos específicos del proyecto y las preferencias del usuario.
 
-## 3.- Instalación.
-
-  0. [Instalación](nginx-ins.md)
-  0. [Balanceo de Carga](bcarga.md)
-
-## 4.- Casos prácticos.
-
-**1. Configuración Básica**
-   
-  1. [Ejercicio 1](configba.md)
-
-**2. Mapeado de Url**
-   
-  1. [Ejercicio 1](ejer/ejer1.md)
-  2. [Ejercicio 2](ejer/ejer2.md)
-  3. [Ejercicio 3](ejer/ejer3.md)
-  4. [Ejercicio 4](ejer/ejer4.md)
-      
-**3. Autentificación, Autorización y Control de Acceso**
-
-  5. [Ejercicio 5](ejer/ejer5.md)
-  6. [Ejercicio 6](ejer/ejer6.md)
-  7. [Ejercicio 7](ejer/ejer7.md)
 
 ## - Referencias.
