@@ -47,5 +47,5 @@ Además de sus capacidades como servidor web, Nginx también se utiliza comúnme
 
 <p align="center">
   <a href="https://nginx.org/en/docs/">
-    <img src="/img/file_type_prometheus_icon_130229.png" alt="Prometheus Documentation">
+    <img src="/img/icons8-nginx-144.svg" alt="Nginx Documentation">
   </a>
