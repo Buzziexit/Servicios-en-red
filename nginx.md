@@ -10,33 +10,33 @@ Además de sus capacidades como servidor web, Nginx también se utiliza comúnme
 
 ## Contenido
 
-1- [Comparativa con Apache](comparativa.md)
+* 1- [Comparativa con Apache](comparativa.md)
 
-2- [Instalación](nginx-ins.md)
+* 2- [Instalación](nginx-ins.md)
 
-   2.1- [Configuración Básica](configba.md)
+   * 2.1- [Configuración Básica](configba.md)
    
-   2.2- [Balanceo de Carga](bcarga.md)
+   * 2.2- [Balanceo de Carga](bcarga.md)
       
-3- Casos practicos
+* 3- Casos practicos
 
-3.1 Mapeado de Url
+* 3.1 Mapeado de Url
 
-   3.1.1- [Ejercicio 1](ejer/ejer1.md)
+   * 3.1.1- [Ejercicio 1](ejer/ejer1.md)
    
-   3.1.2- [Ejercicio 2](ejer/ejer2.md)
+   * 3.1.2- [Ejercicio 2](ejer/ejer2.md)
    
-   3.1.3- [Ejercicio 3](ejer/ejer3.md)
+   * 3.1.3- [Ejercicio 3](ejer/ejer3.md)
    
-   3.1.4- [Ejercicio 4](ejer/ejer4.md)
+   * 3.1.4- [Ejercicio 4](ejer/ejer4.md)
       
-3.2 Autentificación, Autorización y Control de Acceso
+* 3.2 Autentificación, Autorización y Control de Acceso
 
-   3.2.1- [Ejercicio 5](ejer/ejer5.md)
+   * 3.2.1- [Ejercicio 5](ejer/ejer5.md)
       
-   3.2.2- [Ejercicio 6](ejer/ejer6.md)
+   * 3.2.2- [Ejercicio 6](ejer/ejer6.md)
       
-   3.2.3- [Ejercicio 7](ejer/ejer7.md)
+   * 3.2.3- [Ejercicio 7](ejer/ejer7.md)
 
 ## Comparativa con Apache.
 
