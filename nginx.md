@@ -42,27 +42,5 @@ Además de sus capacidades como servidor web, Nginx también se utiliza comúnme
       
    * 3.2.3- [Ejercicio 7](ejer/ejer7.md)
 
-## Comparativa con Apache.
-
-Tanto Nginx como Apache son servidores web populares, pero difieren en su arquitectura y enfoques.
-
-**Nginx:**
-
-1. **Diseño de concurrencia:** Está diseñado para ser ligero y eficiente, utiliza un enfoque de concurrencia no bloqueante que le permite manejar un gran número de conexiones simultáneas de manera eficiente.
-
-2. **Rendimiento:** Es conocido por su rendimiento y es particularmente eficaz en situaciones de alto tráfico o con muchas conexiones concurrentes.
-
-3. **Proxy inverso:** Destaca en el manejo de tareas de proxy inverso, balanceo de carga y servir como servidor de archivos estáticos.
-
-**Apache:**
-
-1. **Diseño de concurrencia:** Utiliza un modelo de concurrencia tradicional, asignando un hilo o proceso por cada conexión, lo que puede resultar menos eficiente en comparación con Nginx en ciertos escenarios.
-
-2. **Módulos y extensibilidad:** Apache es conocido por su flexibilidad y extensibilidad a través de módulos, lo que lo hace ideal para una variedad de configuraciones y requisitos específicos.
-
-3. **Historia:** Apache tiene una larga historia y ha sido un servidor web estándar durante muchos años, lo que lleva a una amplia base de usuarios y una abundancia de recursos.
-
-En resumen, Nginx destaca en eficiencia y rendimiento, especialmente para servir contenido estático y actuar como proxy inverso, mientras que Apache es conocido por su versatilidad y extensibilidad a través de módulos, siendo una opción sólida para una variedad de configuraciones y necesidades. La elección entre ambos dependerá de los requisitos específicos del proyecto y las preferencias del usuario.
-
 
 ## - Referencias.
