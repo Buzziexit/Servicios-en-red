@@ -1,6 +1,6 @@
 # Configuración ftp
 
-![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/51dc1747-fff2-48b4-8348-b3d726d7a8c3)
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/5487e3e6-1c50-409d-933c-80ce6ad9f9c1)
 
 
 Creado en AWS con Debian 12.
