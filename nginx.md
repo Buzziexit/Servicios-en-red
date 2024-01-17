@@ -33,6 +33,7 @@ En resumen, Nginx destaca en eficiencia y rendimiento, especialmente para servir
 ## 3.- Instalación.
 
   0. [Instalación](nginx-ins.md)
+  0. [Balanceo de Carga](bcarga.md)
 
 ## 4.- Casos prácticos.
 
