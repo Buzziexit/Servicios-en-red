@@ -10,9 +10,13 @@ Además de sus capacidades como servidor web, Nginx también se utiliza comúnme
 
 ## Contenido
 
-* 1- [Comparativa con Apache](comparativa.md)
+* 1- Comparativa con Apache
+   
+   * 1. [Comparativa](comparativa.md)
 
-* 2- [Instalación](nginx-ins.md)
+* 2- Instalación
+   
+   * 2.1- [Instalación](nginx-ins.md)
 
    * 2.1- [Configuración Básica](configba.md)
    
