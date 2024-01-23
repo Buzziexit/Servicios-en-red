@@ -34,3 +34,16 @@ sudo /etc/init.d/proftpd restart
 ```
 
 ## Crear usuarios y contraseñas para el FTP
+
+Para gestionar el contenido de manera sencilla y rápida en nuestro servidor FTP proFTPd, podemos crear usuarios en cualquier momento. Esta flexibilidad nos permite tener tantos usuarios como necesitemos. A continuación, mostraremos cómo crear un usuario con un nombre, contraseña, directorio y cuota de almacenamiento opcional.
+
+```
+sudo adduser usuario
+```
+
+Dentro del asistente, siempre nos va a indicar que pongamos la contraseña del nuevo usuario, no obstante, podríamos cambiar esta contraseña en cualquier momento poniendo al siguiente orden:
+
+```
+sudo passwd usuario
+```
+
