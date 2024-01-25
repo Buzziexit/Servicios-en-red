@@ -65,7 +65,7 @@ sudo passwd usuario
 ```
 A partir de ahora, «usuario» podrá conectarse al FTP y accederá, por defecto, a la carpeta especificada en DefaultRoot
 
-## Utlización
+## Utilizar
 Al servidor ftp se puede acceder a través de un simple navegador, o utilizando un cliente ftp, como Filezilla:
 
 ![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/e330114c-c10b-4fdc-bbac-82a1f42994dc)
