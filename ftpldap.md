@@ -99,7 +99,7 @@ uidNumber: 2002
 gidNumber: 2002
 homeDirectory: /srv/ftp/rigoberta
 userPassword: {MD5}qPXxZ/RPSWTmyZje6CcRDA==
-loginShell: /bin/false
+loginShell: /bin/bash
 
 ```
 Y ejecutamos
