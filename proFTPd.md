@@ -1,5 +1,9 @@
 # proFTPd
 
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/5ee75c74-0695-44f8-8865-8aa143cc2cea)
+
+```ProFTPD Version 1.3.8```
+
 El servidor proFTPd es una implementación altamente configurable y segura del protocolo FTP (File Transfer Protocol). Ofrece una amplia gama de características, incluyendo soporte para SSL/TLS, autenticación avanzada, y opciones de configuración flexibles. Este repositorio proporciona una configuración básica y ejemplos para ayudarte a implementar proFTPd en tu entorno.
 
 
