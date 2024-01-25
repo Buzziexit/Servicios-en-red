@@ -29,6 +29,9 @@ Buscaremos la línea comentada «DefaultRoot» y la descomentamos borrando la al
 
 Si queremos que todos los usuarios que inicien sesión accedan por defecto a una misma carpeta, debemos cambiar el parámetro DefaultRoot y añadir la ruta a la que queramos que accedan. 
 
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/e3056544-0656-4ef1-a148-82476d4187ef)
+
+
 ```
 sudo /etc/init.d/proftpd restart
 ```
