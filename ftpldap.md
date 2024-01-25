@@ -60,7 +60,58 @@ Para que puedan autenticarse usuarios con la shell (/bin/false) hay que descomen
 ```
 /etc/init.d/proftpd restart 
 ```
+---
 ## Configuración LDAP
+
+
+### Instalación
+
+# Añadir repositorios.
+```
+cat <<EOF >>/etc/apt/sources.list
+# Repositorios añadidos
+deb http://ftp.es.debian.org/debian/ bullseye main contrib non-free
+deb-src http://ftp.es.debian.org/ bullseye main contrib non-free
+EOF
+apt update -y
+apt upgrade -y
+```
+Entrar en el archivo: ``` nano /etc/hostname```
+Ejemplo: sevidor.cursolinux.net
+
+Entrar en el archivo: ``` nano /etc/hosts```
+
+```
+apt install aptitude -y
+aptitude install slapd ldap-utils -y
+	
+systemctl enable slapd
+```
+
+dpkg-reconfigure slapd
+
+Ejmplo:
+dns= cursolinux.net
+
+```
+Ejemplo:
+127.0.0.1       localhost
+127.0.1.1       servidor.sevilla204.infoweb.es
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+```
+
+``` nano /etc/proftpd/ldap.conf```
+
+Añadir:
+```
+LDAPServer ldap://localhost/??sub LDAPDNInfo "cn=admin,dc=cursolinux,dc=net" "asdasd" LDAPDoAuth on "ou=People,dc=cursolinux,dc=net"
+```
+
+### Añadir Estructura
 
 ```
 nano estructura.ldif
