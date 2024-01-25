@@ -54,3 +54,56 @@ Para que puedan autenticarse usuarios con la shell (/bin/false) hay que descomen
 ```
 /etc/init.d/proftpd restart 
 ```
+## Configuración LDAP
+
+```
+nano estructura.ldif
+```
+
+### Ficheros ldap:
+
+```
+# Contenedor de grupos
+dn: ou=Group,dc=cursolinux,dc=net
+objectClass: organizationalUnit
+objectClass: top
+ou: Group
+
+# Grupo ftpusers
+dn: cn=ftpusers,ou=Group,dc=cursolinux,dc=net
+objectClass: posixGroup
+objectClass: top
+cn: ftpusers
+gidNumber: 2002
+
+# Contenedor de usuarios
+dn: ou=People,dc=cursolinux,dc=net
+objectClass: organizationalUnit
+objectClass: top
+ou: People
+
+# Usuario Rigoberta
+dn: uid=rigoberta,ou=People,dc=cursolinux,dc=net
+uid: rigoberta
+cn: Rigoberta
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+uidNumber: 2002
+gidNumber: 2002
+homeDirectory: /srv/ftp/rigoberta
+userPassword: {MD5}qPXxZ/RPSWTmyZje6CcRDA==
+loginShell: /bin/false
+
+```
+Y ejecutamos
+
+```
+ldapadd -x -D "cn=admin,dc=cursolinux,dc=net" -W -f estructura.ldif
+```
+
+
+
+
+
+
