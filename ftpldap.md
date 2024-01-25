@@ -32,6 +32,12 @@ y también la descomentamos
 
 ```
 LDAPServer ldap://localhost/??sub LDAPDNInfo "cn=admin,dc=cursolinux,dc=net" "asdasd" LDAPDoAuth on "ou=People,dc=cursolinux,dc=net"
+
+LDAPUsers ou=people,dc=cursolinux,dc=net (uid=%u) (uidNumber=%u)
+
+LDAPgroup ou=group,dc=cursolinux,dc=net uniqueMember=%u
+
+
 ```
 Donde especificamos el servidor LDAP, el nombre distinguido del usuario que se conecta, su contraseña y la ubicación de la rama que contiene los usuarios.
 
