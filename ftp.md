@@ -1,4 +1,4 @@
-# Configuración ftp
+# Configuración vsFTPd
 
 ![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/5487e3e6-1c50-409d-933c-80ce6ad9f9c1)
 
