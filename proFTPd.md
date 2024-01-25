@@ -49,4 +49,6 @@ Dentro del asistente, siempre nos va a indicar que pongamos la contraseña del n
 ```
 sudo passwd usuario
 ```
+A partir de ahora, «usuario» podrá conectarse al FTP y accederá, por defecto, a la carpeta especificada en DefaultRoot
+
 
