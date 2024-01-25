@@ -18,6 +18,16 @@ sudo apt install proftpd
 service proftpd start
 systemctl enable proftpd
 ```
+## Archivos Configuración:
+
+| Nombre de archivo                | Función                                                                                                                                       |
+|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| ~/.ftpaccess                     | Proporciona un mecanismo de control adicional para cada host virtual. El archivo tiene que ubicarse en el directorio root del host virtual. Consulte [aquí](http://www.castaglia.org/proftpd/doc/devel-guide/internals/ftpaccess.html) para obtener más información. |
+| /etc/proftpd.conf                | Incluye la mayoría de los parámetros de configuración que se deben definir para que el servicio ProFTPD funcione.                                |
+| /etc/shutmsg                     | Incluye la información utilizada por el comando ftpshut.                                                                                       |
+| /etc/ftpd/ftpusers               | Muestra los usuarios a los que se va a quitar los privilegios de inicio de sesión FTP. Proporcionado para la compatibilidad con el servicio wu-ftpd.|
+| /var/log/xferlog                 | Muestra la información de registro de ProFTPD.                                                                                                 |
+| /var/run/proftpd.scoreboard      | Incluye información de seguimiento para cada sesión actual, utilizada por los comandos ftpcount, ftptop y ftpwho. Consulte [aquí](http://www.proftpd.org/docs/howto/Scoreboard.html) para obtener más información.  |
 
 ## Configuración:
 
