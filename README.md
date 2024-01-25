@@ -51,8 +51,9 @@ Descripción: Nginx es un servidor web y software de proxy inverso de código ab
 
 ### 5. Configuración servidor FTP
 
-- [Configuración de Servidor FTP](ftp.md)
+- [Configuración de Servidor vsFTPd](ftp.md)
 - [Configuración de Servidor proFTPd](proFTPd.md)
+- [Configuración FTP con LDAP](ftpldap.md)
 
 Descripción: Guía para la configuración y gestión eficiente de un servidor FTP. Incluye instalación, administración de usuarios, ajustes de seguridad y establecimiento de conexiones seguras. Facilita el intercambio de archivos de manera confiable y segura en un entorno controlado
 
