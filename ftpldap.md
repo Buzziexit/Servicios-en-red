@@ -46,6 +46,8 @@ Para que puedan autenticarse usuarios con la shell (/bin/false) hay que descomen
 ```
 #RequireValidShell off 
 ```
+![image](https://github.com/Scosrom/Servicios-en-red/assets/114906778/62c03f4d-8636-40a2-ad4d-7ee66222e110)
+
 
 6. Después de hacer todas estas modificaciones reiniciamos el demonio con:
 
