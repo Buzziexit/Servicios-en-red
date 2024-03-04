@@ -57,3 +57,6 @@ Descripción: Nginx es un servidor web y software de proxy inverso de código ab
 
 Descripción: Guía para la configuración y gestión eficiente de un servidor FTP. Incluye instalación, administración de usuarios, ajustes de seguridad y establecimiento de conexiones seguras. Facilita el intercambio de archivos de manera confiable y segura en un entorno controlado
 
+### 6. Configuración de Postfix, Dovecot y Thunderbird
+
+- [Instalación y configuración](postfix.md)
