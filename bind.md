@@ -134,6 +134,7 @@ IN    NS    ns2.sandracostales.com.
 **4. Definición de Registros A:**
 
 ```
+@         IN    A         192.168.1.2
 ns1       IN    A         192.168.1.2
 ns2       IN    A         192.168.1.3
 prof      IN    A         192.168.1.2
